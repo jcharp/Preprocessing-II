@@ -182,6 +182,28 @@ img {
   justify-content: space-around;
   margin-left: 18%;
 }
+/*.btn {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: teal;
+    color: white;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 7px;
+
+}
+    width: 50%;
+    background-color: teal;
+    color: white;
+    height: 12px;
+    font-size: 12px;
+    border-radius: 7px;
+
+
+}*/
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -245,4 +267,16 @@ img {
 }
 .intro p {
   width: 100%;
+}
+.btn {
+  border: 1px solid black;
+  width: 50%;
+  background-color: teal;
+  color: white;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
