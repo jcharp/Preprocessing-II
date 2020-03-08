@@ -182,28 +182,6 @@ img {
   justify-content: space-around;
   margin-left: 18%;
 }
-/*.btn {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background-color: teal;
-    color: white;
-    height: 20px;
-    font-size: 12px;
-    border-radius: 7px;
-
-}
-    width: 50%;
-    background-color: teal;
-    color: white;
-    height: 12px;
-    font-size: 12px;
-    border-radius: 7px;
-
-
-}*/
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -269,7 +247,6 @@ img {
   width: 100%;
 }
 .btn {
-  border: 1px solid black;
   width: 50%;
   background-color: teal;
   color: white;
@@ -281,41 +258,21 @@ img {
   align-items: center;
 }
 @media (max-width: 500px) {
-  .container {
-    max-width: (max-width: 500px);
-    width: 100%;
-    margin: 0 auto;
-  }
-  .intro {
-    margin-left: 17%;
-    padding: 12Px;
-    width: 60%;
-  }
-  .intro h2 {
-    font-size: 20px;
-  }
   .title-line {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
   .title-line h1 {
-    margin-left: 15%;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-bottom: 10px;
   }
   .title-line nav {
-    margin-left: 1px;
-    width: 100%;
-    justify-content: space-around;
-    margin-bottom: 5px;
-  }
-  .container {
     border: 1px solid black;
-  }
-  .content-section {
+    width: 100%;
+    margin-left: 0 auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
   }
+  /* end of at mobile*/
 }
