@@ -258,6 +258,9 @@ img {
   align-items: center;
 }
 @media (max-width: 500px) {
+  html {
+    width: 400px;
+  }
   .title-line {
     display: flex;
     flex-direction: column;
@@ -268,11 +271,48 @@ img {
     margin-bottom: 10px;
   }
   .title-line nav {
-    border: 1px solid black;
     width: 100%;
-    margin-left: 0 auto;
+    margin-left: 1%;
     display: flex;
     justify-content: space-around;
+  }
+  .intro h2 {
+    font-size: 20px;
+  }
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 600px;
+    margin-left: 12%;
+  }
+  .home .inverse-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .content-pick {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 20px;
+    flex-wrap: wrap;
+  }
+  .content-pick .destination h4 {
+    width: 200px;
+    margin-left: 50%;
+  }
+  .content-pick .destination p {
+    width: 300px;
+    margin-left: 50%;
+  }
+  .content-pick .destination div {
+    border: 1px solid black;
+    width: 300px;
+    margin-left: 50%;
   }
   /* end of at mobile*/
 }
